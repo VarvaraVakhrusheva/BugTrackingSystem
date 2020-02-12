@@ -29,7 +29,8 @@ public class Main {
             } catch (FileNotFoundException e) {
                 System.out.println("Указан неверный адрес. Используется стандартный файл, хранящийся по адресу: " +
                         DEFAULT_PATH);
-                obj = parser.parse(new FileReader(DEFAULT_PATH));
+                path = DEFAULT_PATH;
+                obj = parser.parse(new FileReader(path));
             }
             JSONObject jsonObject = (JSONObject) obj;
 

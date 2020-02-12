@@ -1,0 +1,19 @@
+{
+  "projects": [
+    "{\"projectName\":\"project2\",\"tasks\":[]}",
+    "{\"projectName\":\"project1\",\"tasks\":[\"task1\",\"task2\"]}",
+    "{\"projectName\":\"project4\",\"tasks\":[]}",
+    "{\"projectName\":\"project3\",\"tasks\":[\"taks1\"]}"
+  ],
+  "users": [
+    "{\"name\":\"user1\",\"tasks\":[\"task1\",\"taks1\"]}",
+    "{\"name\":\"user2\",\"tasks\":[\"task2\"]}",
+    "{\"name\":\"user3\",\"tasks\":[]}",
+    "{\"name\":\"user4\",\"tasks\":[]}"
+  ],
+  "tasks": [
+    "{\"project\":\"project1\",\"name\":\"task1\",\"theme\":\"theme1\",\"type\":\"type1\",\"priority\":1,\"userKey\":\"user1\",\"description\":\"asfasfasfasfasf\"}",
+    "{\"project\":\"project3\",\"name\":\"taks1\",\"theme\":\"theme2\",\"type\":\"user1\",\"priority\":1,\"userKey\":\"user1\",\"description\":\"asfagasgasgas\"}",
+    "{\"project\":\"project1\",\"name\":\"task2\",\"theme\":\"theme1\",\"type\":\"type1\",\"priority\":3,\"userKey\":\"user2\",\"description\":\"sasgag\"}"
+  ]
+}
